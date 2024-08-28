@@ -3,7 +3,6 @@ package cookiejar_test
 import (
 	"errors"
 	"io"
-	"net/http"
 	"net/url"
 	"os"
 	"testing"
@@ -17,6 +16,7 @@ import (
 	"github.com/swaggest/assertjson"
 	"go.nhat.io/aferomock"
 
+	http "github.com/bogdanfinn/fhttp"
 	"go.nhat.io/cookiejar"
 )
 

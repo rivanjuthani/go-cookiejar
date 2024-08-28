@@ -9,13 +9,13 @@ import (
 	"errors"
 	"fmt"
 	"net"
-	"net/http"
 	"net/url"
 	"sort"
 	"strings"
 	"sync"
 	"time"
 
+	http "github.com/bogdanfinn/fhttp"
 	"go.nhat.io/cookiejar/internal/ascii"
 )
 

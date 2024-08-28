@@ -5,13 +5,13 @@ import (
 	"encoding/json"
 	"errors"
 	"io"
-	"net/http"
 	"net/url"
 	"os"
 	"path/filepath"
 	"sync"
 	"time"
 
+	http "github.com/bogdanfinn/fhttp"
 	"github.com/bool64/ctxd"
 	"github.com/spf13/afero"
 )
