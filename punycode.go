@@ -11,7 +11,7 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"go.nhat.io/cookiejar/internal/ascii"
+	"github.com/rivanjuthani/cookiejar/internal/ascii"
 )
 
 // These parameter values are specified in section 5.

@@ -1,4 +1,4 @@
-module go.nhat.io/cookiejar
+module github.com/rivanjuthani/cookiejar
 
 go 1.20
 

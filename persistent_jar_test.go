@@ -17,7 +17,7 @@ import (
 	"go.nhat.io/aferomock"
 
 	http "github.com/bogdanfinn/fhttp"
-	"go.nhat.io/cookiejar"
+	"github.com/rivanjuthani/cookiejar"
 )
 
 func TestPersistentJar_SetCookies_NoAutoSync_Success(t *testing.T) {
