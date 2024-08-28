@@ -16,7 +16,7 @@ import (
 	"time"
 
 	http "github.com/bogdanfinn/fhttp"
-	"github.com/rivanjuthani/cookiejar/internal/ascii"
+	"github.com/rivanjuthani/go-cookiejar/internal/ascii"
 )
 
 // PublicSuffixList provides the public suffix of a domain. For example:
